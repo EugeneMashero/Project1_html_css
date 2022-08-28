@@ -1,0 +1,347 @@
+
+
+@font-face {
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("fonts/Montserrat-Medium.woff") format("woff");
+}
+
+html,
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  background-color: #EFE6E4;
+  margin: 0;
+}
+
+ul{
+  position: absolute;
+width: 1201.28px;
+height: 25px;
+left: 98.32px;
+top: 36px;
+list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #533738;
+}
+
+h1{
+font-weight: 400;
+font-size: 50px;
+line-height: 62px;
+color: #533738;
+}
+
+li{
+display: inline-block;
+padding: 22px;
+}
+
+h2{
+text-transform: uppercase;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+color: #533738;
+text-align: center;
+}
+
+h3{
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+color: #FFFFFF;
+}
+
+h4{
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  color: white;
+  text-align: center;
+}
+
+p{
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 30px;
+ color: #533738;
+}
+pre{
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+
+blockquote{
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #533738;
+white-space: pre;
+grid-row: span 2;
+}
+cite{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+ol{
+  text-align: center;
+}
+
+.logo{
+position: absolute;
+width: 25.34px;
+height: 25px;
+left: 98.32px;
+top: 50px;
+}
+.menu{
+margin:0;
+}
+.main-menu {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+}
+
+
+.main-title{
+  position: absolute;
+  width: 534.02px;
+  height: 186px;
+  left: 184.08px;
+  top: 152px;
+}
+.intro-text {
+position: absolute;
+width: 493.57px;
+height: 90px;
+left: 184.08px;
+top: 362px;
+}
+.intro a{
+  position: absolute;
+  width: 309.14px;
+  height: 74px;
+  left: 182px;
+  top: 473px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+  margin-top:25px;
+  text-align: center;
+  background: #CC8B86;
+}
+.intro{
+  background-image:  url(anastasiya-vysotskaya-v5GfetB7Yv0-unsplash.jpg);
+}
+
+.O-NAS{
+display: flex;
+justify-content: center;
+}
+.image-foto-stola{
+  margin-right: 63.46px;
+}
+.info{
+  display: flex;
+  justify-content: space-around;
+  background-color: #8D7370;
+  color: white;
+  margin-top: 21px;
+}
+
+
+
+.our-jobs{
+  margin-left: 100px;
+  text-align: left;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 488px 692px;
+  grid-template-rows: 451px 451px;
+  grid-column-gap: 20px;
+  grid-row-gap:30px;
+  margin: 0;
+  margin-left: 100px;
+}
+.vanna{
+position: absolute;
+width: 488px;
+height: 451px;
+right: 95px;
+left: 812px;
+top: 2283px;
+bottom:2656px;
+}
+
+
+.studia{
+  position: absolute;
+  width: 488px;
+  height: 451px;
+  left: 100px;
+  top: 1802px;
+  background-color:rgba(100, 72, 69, 0.8);
+  color:white;
+}
+
+.studia-2{
+color:white;
+padding-left: 35px;
+}
+
+.more{
+  display: flex;
+  justify-content: center;
+}
+.strelka{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+}
+.strelka-v-pravo{
+  padding-left: 5px;
+  margin-top:50px;
+  width: 60px;
+  height: 1px;
+
+}
+
+
+.team{
+  margin-bottom: 0;
+  background-color: #E2C4BA;
+}
+.team-title{
+  padding-top: 50px;
+}
+.flex-container{
+  display:flex;
+  justify-content: center;
+  margin:0;
+}
+.Sasha{
+margin-left: 55px;
+margin-right: 38px;
+}
+.flex-container-2{
+  display:flex;
+  justify-content: center;
+}
+.text.Sasha{
+  padding-left: 110px;
+  margin-right: 100px;
+}
+.flex-container-3{
+  display: flex;
+}
+.krug-2{
+margin-left: 235px;
+margin-right: 235px;
+}
+.krug-4{
+margin-left: 235px;
+}
+.flex-container-4{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.text-2{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.text-3{
+  margin-right:20px;
+}
+.text-4{
+  margin-left: 30px;
+}
+
+.grid-container-2{
+  display:grid;
+  grid-template-columns: 407px 407px;
+  grid-template-rows: 272px 272px;
+  column-gap: 40px;
+  row-gap:24px;
+  width:1395px;
+  margin: 0 auto;
+  margin-left: 283px;
+}
+
+
+.zayvka{
+  width: 1400px;
+  height: 624px;
+  background-color: #8D7370;
+}
+.zayvka nav{
+  position: absolute;
+  width: 309.14px;
+  height: 74px;
+  left: 183px;
+  top: 5008px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+  margin-top:25px;
+  text-align: center;
+  background: #CC8B86;
+}
+.gid-container-3{
+  margin-left: 182px;
+}
+.karta{
+position: absolute;
+width: 590px;
+height: 624px;
+left: 710px;
+top: 4515px;
+}
+.zayvka p{
+  background-color: #8D7370;
+  color:white;
+}
+.ostavyt_zayvka{
+  margin-left: 182px;
+  color:white;
+}
+.flex-container-4{
+  display: flex;
+  margin: 37px;
+  margin-left: 100px;
+  margin-right: 95px;
+}
+.info3{
+  margin-left: 42px;
+}
+.info4{
+  margin-left: auto;
+}
